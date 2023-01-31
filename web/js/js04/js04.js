@@ -229,4 +229,6 @@ console.log("sacando a la venta"+ alimentoPerecederos.shift())
 
 const productos = ["desarmadores", "cemento"]
 productos.push("luces navideñas")
+/* SACANDO LIFO */
 console.log("sacando a la venta "+ productos.pop())
+console.log("sacando a la venta" + productos.pop());
