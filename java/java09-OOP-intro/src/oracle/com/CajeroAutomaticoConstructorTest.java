@@ -18,7 +18,7 @@ public class CajeroAutomaticoConstructorTest {
 		
 		Banco Sucursal1 = new Banco("coyoacan", "pepito grillo",1000);
 		
-		System.out.println(Sucursal1.gerente);
+	
 		System.out.println(Sucursal1.nombreCliente("pinocho"));
 		System.out.println(Banco.nombreBanco);
 		System.out.println(Banco.numClientesTotales());

@@ -11,16 +11,43 @@ public class Banco {
 //metodo de clase
 	
 	//atributos de instancia
-	String ubicacion;
+	private String ubicacion;
 	
-	String gerente;
+	private String gerente;
 	
-	int numClientes;
+	private int numClientes;
 	
-	ArrayList<CajeroAutomatico> cajeros;
+	//ArrayList<CajeroAutomatico> cajeros;
+	
+	
+	
 	
 	//ArrayList<Empleados>empleados;
 	
+	public String getUbicacion() {
+		return ubicacion;
+	}
+
+	public void setUbicacion(String ubicacion) {
+		this.ubicacion = ubicacion;
+	}
+
+	public String getGerente() {
+		return gerente;
+	}
+
+	public void setGerente(String gerente) {
+		this.gerente = gerente;
+	}
+
+	public int getNumClientes() {
+		return numClientes;
+	}
+
+	public void setNumClientes(int numClientes) {
+		this.numClientes = numClientes;
+	}
+
 	//atributos de clase
 	static String nombreBanco;
 	
@@ -37,13 +64,17 @@ public class Banco {
 	}
 	
 	//metodo de instancia
-	String nombreCliente (String nombre) {
+	public String nombreCliente (String nombre) {
 		return nombre;
 	}
 	
 	//metodo de clase
-	static int numClientesTotales(){
+	public static int numClientesTotales(){
 		return 15000;
+	}
+	
+	public String imprimirDatosPlaca() {
+		return this.ubicacion + "\t"+ this.gerente + "\t" + this.numClientes;
 	}
 	
 	
