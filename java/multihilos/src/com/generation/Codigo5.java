@@ -2,6 +2,8 @@ package com.generation;
 
 import java.util.Scanner;
 
+//te deja escoger un numero en consola y deéndiento si tienes suerte o no te dice numero afortunado
+//o numero no afortunado
 public class Codigo5 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
